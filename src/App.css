@@ -1,0 +1,22 @@
+.button-cute {
+  background-color: #ff8c8c;     /* ほんのりトマト色 */
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 0 #cc6c6c;   /* 影でぷっくり感 */
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.button-cute:hover {
+  background-color: #ff5e5e;
+}
+
+.button-cute:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #cc6c6c;
+}
