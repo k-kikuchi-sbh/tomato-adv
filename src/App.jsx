@@ -4,7 +4,7 @@ import MapScreen from './components/MapScreen.jsx'
 import AreaScreen from './components/AreaScreen.jsx'
 import ChoiceScreen from './components/ChoiceScreen.jsx'
 import ResultScreen from './components/ResultScreen.jsx'
-
+import "./App.css";
 export default function App() {
   const [screen, setScreen] = useState('title')
   const [currentArea, setCurrentArea] = useState(null)
